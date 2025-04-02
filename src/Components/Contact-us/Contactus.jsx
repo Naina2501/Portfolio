@@ -51,8 +51,8 @@ const ContactUs = () => {
         </div>
      </div>
      <div className="w-60 text-left mt-15">
-     <h2 className="text-blue-600 text-lg font-bold">Contact-Us</h2>
-     <div className="text-bold text-black font-bold"> nainabahuriya257@gmail.com</div>
+     <h2 className="text-blue-600 text-lg font-bold mb-9">Contact-Us</h2>
+   
      <div className="text-bold text-black font-bold">  +91 89563475389</div>
      <div className="text-bold text-black font-bold">  Dr.Ambedkar ward, Ballarpur</div>
      <p>
