@@ -17,9 +17,9 @@ function Skills() {
         <div className='mt-2'>
         <Container>
         <h2 className='text-white text-4xl Subtitle '>My-Skills</h2>
-        <div class="grid grid-flow-col grid-rows gap-7 mt-5">
+        <div class="grid grid-flow-col grid-rows gap-5 mt-5">
             <div class=" ">
-            <div className='w-100'>
+            <div className='w-120'>
                         <p></p>
                         <p>
                             Here are some of the technical skills I bring to the table:
@@ -43,7 +43,7 @@ function Skills() {
                         </div>
             </div>
             <div className=" mt-8 ">
-                <img src="https://codup.co/wp-content/uploads/2021/08/full-stack-development.png" className='rounded-2xl h-90 '></img>
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/029/711/176/small_2x/developer-with-ai-generated-free-png.png" className='rounded-2xl h-90  animate-bounce'></img>
             </div>
          
        </div>
