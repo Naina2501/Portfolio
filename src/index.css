@@ -1,0 +1,139 @@
+@import "tailwindcss";
+.Container-color{
+  background-color: rgba(155, 156, 160, 0.71);
+}
+
+.images-container {
+  display: grid;
+  place-items: center;
+ 
+}
+.Subtitle{
+  text-shadow: 10px 5px 5px blueviolet;
+  font-weight: bold;
+}
+.image-container {
+  --size: 480px;
+  width: var(--size);
+  height: var(--size);
+  background: linear-gradient(indigo, deeppink);
+  border: 10px solid #fff;
+  border-bottom-width: 50px;
+  box-shadow: 6px 6px 15px #0008;
+  rotate: -5deg;
+  user-select: none;  
+  overflow: hidden;
+  margin:30px;
+}
+
+.manzdev {
+  rotate: -6deg;
+  translate: 0 20px;
+  filter: drop-shadow(6px 0 4px #0006)
+}
+​
+.container {
+  position: relative;
+  
+  :is(.gradient, img) {
+    position: absolute;
+  }
+}
+​
+.gradient {
+  background: radial-gradient(red, black);
+  mix-blend-mode: screen;
+  width: 100%;
+  height: 100%;
+}
+
+.manzdev {
+  animation: move 3s infinite alternate;
+}
+
+@keyframes move {
+  0%, 50% { translate: 0 20px; }
+  75%, 100% { translate: 0 350px; }
+}
+
+:is(.css, .tailwind) {
+  width: 256px;
+  z-index: -1;
+}
+
+.css {
+  animation: left-appears 6s infinite alternate 3s;
+  rotate: -8deg;
+}
+
+.tailwind {
+  animation: right-appears 6s infinite alternate;
+}
+
+@keyframes right-appears {
+  50%, 75% { translate: 300px 0; }
+}
+
+@keyframes left-appears {
+  50%, 75% { translate: -260px 25px; }
+}
+
+wrapper{
+    display: flex;
+    }
+    .wrapper .static-txt{
+    color: #c1f9ee;
+    font-size: 60px;
+    font-weight: 400;
+    }
+    .wrapper .dynamic-txts{
+    margin-left: 75px;
+    height: 90px;
+    line-height: 90px;
+    font-weight: bold;
+    overflow: hidden;
+    }
+    .dynamic-txts li{
+    list-style: none;
+    color: #bc44d7e2;
+    text-shadow: 4px 4px 4px #3e4043;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+    }
+    @keyframes slide {
+    100%{
+    top: -360px;
+    }
+    }
+    .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+    }
+    
+    @keyframes slider {
+        0%{
+       transform: translate(200);
+        }
+        100%
+        {
+            transform: skewY(-30deg);
+        }
+        }
+
+
+        .marquee-container:hover .marquee-content {
+          animation-play-state: play;
+        }
+        
+         @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-200%); }
+          }
+        
+          .animate-marquee {
+            animation: marquee 40s linear infinite;
+          }
