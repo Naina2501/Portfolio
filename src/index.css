@@ -1,6 +1,6 @@
 @import "tailwindcss";
 .Container-color{
-  background-color: rgba(155, 156, 160, 0.71);
+  background-color: rgba(134, 135, 137, 0.71);
 }
 
 .images-container {
@@ -124,16 +124,7 @@ wrapper{
         }
         }
 
-
-        .marquee-container:hover .marquee-content {
-          animation-play-state: play;
-        }
-        
-         @keyframes marquee {
-            0% { transform: translateX(100%); }
-            100% { transform: translateX(-200%); }
-          }
-        
-          .animate-marquee {
-            animation: marquee 40s linear infinite;
-          }
+.Card-image{
+  height: 35px;
+  width: 100%;
+}

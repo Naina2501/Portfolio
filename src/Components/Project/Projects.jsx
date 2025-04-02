@@ -62,7 +62,7 @@ function Projects() {
       ];
     return (
 
-        <div className="projects">
+        <div className="projects mt-3">
            <Container>
            <div className="container mx-auto px-4 py-4">
 

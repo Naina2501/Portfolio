@@ -8,7 +8,7 @@ const Header = () => {
     <header className=" text-white py-5 @container">
     <Container>
     <div className="container mx-auto flex justify-between items-center">
-    <div className="bg-clip-text flex justify-around text-3xl font-bold text-white"><img src="https://cdn3.iconfinder.com/data/icons/users-6/100/women-computer-512.png" className="w-10 h-10"></img><span>Naina Bahuriya</span> </div>
+    <div className="bg-clip-text flex justify-around text-3xl font-bold text-white"><span>Naina Bahuriya</span> </div>
       <nav className="hidden md:flex space-x-4 text-lg hover:scale-110 transition-transform duration-300">
         <Link to="/" >Home</Link>
         <Link to="/Projects" >Projects</Link>

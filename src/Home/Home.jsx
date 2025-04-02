@@ -45,11 +45,9 @@ function Home() {
      
        
        
-    
-       <Projects/>
-       
-       <Skills/>
-       <AboutUs/>
+<Skills/>
+ <Projects/>
+ <AboutUs/>
        <Contactus/>
             </Container>
            
