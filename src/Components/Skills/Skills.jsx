@@ -41,7 +41,7 @@ function Skills() {
                         </ul>
                         </div>
             </div>
-            <div className=" w-100 align-middle">
+            <div className=" w-100 h-100">
                 <img src="https://codup.co/wp-content/uploads/2021/08/full-stack-development.png"></img>
             </div>
          

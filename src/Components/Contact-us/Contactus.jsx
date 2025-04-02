@@ -53,8 +53,8 @@ const ContactUs = () => {
      <div className="w-60 text-left mt-15">
      <h2 className="text-blue-600 text-lg font-bold">Contact-Us</h2>
      <div className="text-bold text-blue-400"> nainabahuriya257@gmail.com</div>
-     <div className="text-bold text-blue-400">  +91 89563475389</div>
-     <div className="text-bold text-blue-400">  Dr.Ambedkar ward, Ballarpur</div>
+     <div className="text-bold text-blue-600">  +91 89563475389</div>
+     <div className="text-bold text-blue-600">  Dr.Ambedkar ward, Ballarpur</div>
      <p>
         I would love to collaborate on exciting projects or share ideas. Feel free to reach out to me at{' '}
         <a href="mailto:yourname@webdev.com" className="text-blue-600 font-extrabold">nainabahuriya257@gmail.com</a> or check out my work on{' '}
