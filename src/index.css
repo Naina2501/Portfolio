@@ -1,6 +1,8 @@
 @import "tailwindcss";
 .Container-color{
-  background-color: rgba(134, 135, 137, 0.71);
+  background-color: rgba(35, 33, 33, 0.71);
+  color: white;
+  border-radius: 20px;
 }
 
 .images-container {
@@ -14,8 +16,8 @@
 }
 .image-container {
   --size: 480px;
-  width: var(--size);
-  height: var(--size);
+  width: 450px;
+  height: 450px;
   background: linear-gradient(indigo, deeppink);
   border: 10px solid #fff;
   border-bottom-width: 50px;
@@ -125,6 +127,6 @@ wrapper{
         }
 
 .Card-image{
-  height: 35px;
+  height: 50px;
   width: 100%;
 }

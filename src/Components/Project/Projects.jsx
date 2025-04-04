@@ -1,5 +1,8 @@
 import React from 'react';
 import Container from '../Container/Container';
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 function Projects() {
     const projects = [
@@ -66,23 +69,35 @@ function Projects() {
            <Container>
            <div className="container mx-auto px-4 py-4">
 
-        <h2 className='font-bold text-3xl mb-10 text-white'>Projects</h2>
-         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {projects.map((project) => (
-          <div key={project.id} className="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src={project.src}
-              alt={project.alt}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold">{project.name}</h3>
-              <p className="text-gray-900">{project.language}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
+        <h2 className='font-bold text-3xl mb-10 text-white Subtitle'>ℙ𝕣𝕠𝕛𝕖𝕔𝕥𝕤</h2>
+        <div class="grid grid-cols-4 gap-4">
+      <div>
+          <ul className="mt-32">
+          <li className=" text-2xl p-4 hover:text-pink-500"><FaSquareInstagram /></li>
+          <li className=" text-2xl p-4  hover:text-white"><FaGithub /></li>
+          <li className=" text-2xl p-4  hover:text-blue-300"><FaLinkedin  /></li>
+          </ul>
+  </div>
+  <div> <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-230">
+       
+       {projects.map((project) => (
+         <div key={project.id} className="bg-gray-500 rounded-lg shadow-md overflow-hidden">
+           <img
+             src={project.src}
+             alt={project.alt}
+             className="w-full h-48 object-cover"
+           />
+           <div className="p-4">
+             <h3 className="text-lg font-semibold">{project.name}</h3>
+             <p className="text-gray-900">{project.language}</p>
+           </div>
+         </div>
+       ))}
+     </div>
+   </div>
+   </div>
+</div>
+        
     
             </Container>
         </div>

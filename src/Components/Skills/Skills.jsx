@@ -1,5 +1,8 @@
 import React from 'react';
 import Container from '../Container/Container';
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 function Skills() {
 
@@ -15,11 +18,19 @@ function Skills() {
     
     return (
         <div className='mt-2'>
-        <Container>
-        <h2 className='text-white text-4xl Subtitle '>My-Skills</h2>
+        <Container className="container">
+        <h2 className='text-white text-4xl Subtitle '>𝕊𝕜𝕚𝕝𝕝𝕤</h2>
         <div class="grid grid-flow-col grid-rows gap-5 mt-5">
+        <div className='w-40'>
+            <ul className="mt-16 ">
+                       <li className=" text-2xl p-4 hover:text-pink-500"><FaSquareInstagram /></li>
+                       <li className=" text-2xl p-4  hover:text-white"><FaGithub /></li>
+                       <li className=" text-2xl p-4  hover:text-blue-300"><FaLinkedin  /></li>
+             </ul> 
+            </div>
             <div class=" ">
-            <div className='w-120'>
+               
+            <div className='w-120 '>
                         <p></p>
                         <p>
                             Here are some of the technical skills I bring to the table:
@@ -29,12 +40,14 @@ function Skills() {
                             <li
                                 key={index}
                                 style={{
-                                background: '#f4f4f4',
+                               border :'2px solid gray',
                                 margin: '10px 0',
                                 padding: '10px',
-                                borderRadius: '8px',
-                                boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+                                borderTopLeftRadius:"20px", 
+                                borderBottomRightRadius:'20px',
+                                boxShadow: '10 2px 4px gray',
                                 }}
+                                className='ms-3'
                             >
                                 <strong>{skill.name}</strong> - {skill.level}
                             </li>
@@ -43,13 +56,15 @@ function Skills() {
                         </div>
             </div>
             <div className=" mt-8 ">
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/029/711/176/small_2x/developer-with-ai-generated-free-png.png" className='rounded-2xl h-90  animate-bounce'></img>
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/029/711/176/small_2x/developer-with-ai-generated-free-png.png" className='rounded-2xl h-90  '></img>
             </div>
+            
          
        </div>
 
-             
-        <div className="overflow-hidden  mb-4 mt-15">
+       
+       <div className="overflow-hidden  mb-4 mt-15">      
+        
                 <div className=" flex gap-3 items-center ">
                     <div className="px-4 py-2  text-white rounded w-100 "><img src='https://th.bing.com/th/id/OIP.QdIrCNdF2ZVylABjjes1LAHaGq?rs=1&pid=ImgDetMain' className='Card-image'></img></div>
                     <div className="px-4 py-2  text-white rounded w-100 "><img src='https://www.global-itech.com/wp-content/uploads/2020/04/javaScriptIcon-768x870.jpeg'  className='Card-image'></img></div>
@@ -62,15 +77,12 @@ function Skills() {
                     <div className="px-4 py-2  text-white rounded w-100 "><img src='https://th.bing.com/th/id/OIP.jrcuppJ7JfrVrpa9iKnnnAHaHa?rs=1&pid=ImgDetMain'  className='Card-image'></img></div>
                     <div className="px-4 py-2 text-white rounded w-100 "><img src='https://th.bing.com/th?q=TypeScript+Official+Icon&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247'  className='Card-image'></img></div>
                 </div>
-                </div>
+              
                 
          
-            </Container>
-
-           
         
-            
-
+        </div>
+            </Container>
         </div>
     );
 }

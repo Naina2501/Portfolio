@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div className='mt-3'>
     <Container>
-    <h1 className='Subtitle text-white text-4xl'>About Me</h1>
+    <h1 className='Subtitle text-white text-4xl'>𝔸𝕓𝕠𝕦𝕥 𝕄𝕖</h1>
     <p className='m-6 text-white'>
        Hi! I'm <strong>Naina Bahuriya</strong>, a passionate web developer with a knack for building efficient, user-friendly, and visually appealing websites.
        I specialize in front-end and back-end development, turning creative ideas into functional digital solutions.

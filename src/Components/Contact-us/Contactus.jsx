@@ -38,10 +38,10 @@ const ContactUs = () => {
   return (
     <div className='mt-4' >
      <Container>
-     <h2 className="text-white text-4xl Subtitle" >Contact Us</h2>
+     <h2 className="text-white text-3xl Subtitle" >ℂ𝕠𝕟𝕥𝕒𝕔𝕥 𝕌𝕤</h2>
      <div className="grid grid-flow-col grid-rows-1 gap-4 p-3">
      <div>
-        <ul className="mt-10">
+        <ul className="mt-20">
         <li className=" text-2xl p-4 hover:text-pink-500"><FaSquareInstagram /></li>
         <li className=" text-2xl p-4  hover:text-white"><FaGithub /></li>
         <li className=" text-2xl p-4  hover:text-blue-300"><FaLinkedin  /></li>
@@ -53,8 +53,8 @@ const ContactUs = () => {
      <div className="w-60 text-left mt-12">
      <h2 className="text-blue-600 text-lg font-bold mb-5">Contact-Us</h2>
    
-     <div className="text-bold text-black font-bold">  +91 89563475389</div>
-     <div className="text-bold text-black font-bold">  Dr.Ambedkar ward, Ballarpur</div>
+     <div className="text-bold text-white font-bold">  +91 89563475389</div>
+     <div className="text-bold text-white font-bold">  Dr.Ambedkar ward, Ballarpur</div>
      <p>
         I would love to collaborate on exciting projects or share ideas. Feel free to reach out to me at{' '}
         <a href="mailto:yourname@webdev.com" className="text-blue-600 font-extrabold">nainabahuriya257@gmail.com</a> or check out my work on{' '}

@@ -2,12 +2,15 @@ import React from 'react';
 import { Contactus, Container } from '../Components';
 import {Projects,Skills} from "../Components"
 import {AboutUs} from "../Components"
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 function Home() {
     return (
-        <div className='w-full py-8 '>
+        <div className='w-full py-8  '>
          <Container>
 
-         <div class="grid grid-cols-2 gap-4">
+         <div class="grid grid-cols-2 gap-3 container ">
             <div>
                 <div >
                     <div className="wrapper "> 
@@ -38,18 +41,22 @@ function Home() {
                 </div>
             
             </div>
+             
             </div>
+            
             </div>
+            
   
 </div>
      
        
        
-<Skills/>
+
+            </Container>
+            <Skills/>
  <Projects/>
  <AboutUs/>
        <Contactus/>
-            </Container>
            
         </div>
     );
